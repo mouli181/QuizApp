@@ -1,0 +1,96 @@
+body {
+  background-color: black;
+}
+.final {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  text-align: center;
+  display: grid;
+  position: fixed;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+}
+.quiz {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  display: grid;
+  position: fixed;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+}
+.question-count {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.question-section {
+  background-color: #ffffff;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.answer-section {
+  background-color: #ffffff;
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+
+.button {
+  background-color: rgb(55, 93, 220);
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+}
+.button1 {
+  background-color: rgb(55, 49, 49);
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+.button2 {
+  background-color: rgb(55, 49, 49);
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.button:hover {
+  background-color: rgb(6, 55, 146);
+}
+.button1:hover {
+  background-color: black;
+}
+.button2:hover {
+  background-color: black;
+}
+.welcome-page {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  text-align: center;
+  display: grid;
+  position: fixed;
+  width: 30%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  padding: 30px;
+}
